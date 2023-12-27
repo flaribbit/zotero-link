@@ -1,0 +1,7 @@
+[package]
+name = "zotero-link"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clipboard-win = "5.0.0"
