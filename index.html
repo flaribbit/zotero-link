@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <script>location.replace(location.hash.substring(1))</script>
+    <script>if (location.hash) { location.replace(location.hash.substring(1)) }</script>
 </body>
 
 </html>

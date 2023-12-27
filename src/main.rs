@@ -1,7 +1,10 @@
 use clipboard_win::{formats, get_clipboard, set_clipboard};
 
 fn process(clip_text: String) -> String {
-    clip_text.replace("(zotero://", "(https://www.zotero.org/")
+    clip_text.replace(
+        "(zotero://",
+        "(https://flaribbit.github.io/zotero-link/#zotero://",
+    )
 }
 
 fn main() {
